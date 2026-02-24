@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NEXTGen Komputer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- WELCOME SCREEN -->
+<div id="welcomeScreen">
+    <div class="welcome-box">
+        <img src="next_js_logo_icon_145038.ico" alt="NEXTGen">
+        <h1>Welcome to</h1>
+        <h2>NEXTGen Komputer</h2>
+    </div>
+</div>
+
+<header class="navbar">
+    <div class="logo-area">
+        <img src="next_js_logo_icon_145038.ico" class="logo-img" alt="NEXTGen">
+        <span class="logo-text">NEXTGen Komputer</span>
+    </div>
+    <nav class="menu">
+        <a href="pengaduan.html">Pengaduan</a>
+        <a href="https://tawk.to/chat/699da55e1398471c3a2c20c5/1ji7t422o" target="_blank">Konsultasi</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>NEXTGen Komputer</h1>
+        <p>Solusi Perakitan dan Service PC Terbaik & Terpercaya</p>
+    </div>
+</section>
+
+
+<div class="section-nav">
+    <a href="index.html" class="active">Produk</a>
+    <a href="service.html">Service & Perakitan PC</a>
+</div>
+
+<div class="produk-bar">
+    <div class="produk-bar-subtitle">NEXTGen Komputer</div>
+    <div class="produk-bar-title">PRODUK UNGGULAN</div>
+    <div class="produk-bar-line"></div>
+</div>
+
+<section class="produk-cinematic">
+    <div class="produk-content">
+        <div class="produk-image-wrapper">
+            <img id="produkImage" src="produk1.png" alt="Produk">
+        </div>
+
+        <div class="produk-info">
+            <h3 id="produkTitle">PSU</h3>
+            <p id="produkDesc">
+                Power Supply Unit berkualitas tinggi untuk suplai daya stabil, aman, dan tahan lama bagi seluruh komponen PC.
+            </p>
+
+            <div class="produk-nav">
+                <button onclick="prevProduk()" aria-label="Produk sebelumnya">&#8592;</button>
+                <button onclick="nextProduk()" aria-label="Produk selanjutnya">&#8594;</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION KEUNGGULAN -->
+<section class="keunggulan-section">
+    <div class="keunggulan-container">
+        <h2 class="keunggulan-title">Mengapa Memilih Kami?</h2>
+        <p class="keunggulan-subtitle">Keunggulan yang membuat kami berbeda</p>
+        
+        <div class="keunggulan-grid">
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Produk Original</h3>
+                <p>Semua komponen PC bergaransi resmi dan original dari distributor terpercaya</p>
+            </div>
+            
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Teknisi Berpengalaman</h3>
+                <p>Tim teknisi profesional dengan pengalaman bertahun-tahun di bidang komputer</p>
+            </div>
+            
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Pelayanan Cepat</h3>
+                <p>Proses service dan perakitan PC dengan waktu yang efisien dan tepat waktu</p>
+            </div>
+            
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Support 24/7</h3>
+                <p>Layanan konsultasi dan bantuan teknis selama 24 jam setiap hari</p>
+            </div>
+            
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Garansi Service</h3>
+                <p>Jaminan garansi untuk setiap layanan service yang kami berikan</p>
+            </div>
+            
+            <div class="keunggulan-card">
+                <div class="keunggulan-icon">
+                    <i class="fas fa-tags"></i>
+                </div>
+                <h3>Harga Kompetitif</h3>
+                <p>Harga terbaik dengan kualitas layanan yang tidak kalah dengan kompetitor</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="center-shop">
+    <a href="#" class="center-shop-btn">SHOP NOW</a>
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="next_js_logo_icon_145038.ico" alt="NEXTGen">
+        <h2>NEXTGen</h2>
+      </div>
+      <p>
+        NEXTGen Komputer adalah penyedia solusi hardware, software,
+        service, dan perakitan PC profesional dengan kualitas terbaik.
+      </p>
+    </div>
+
+    <div class="footer-layanan">
+      <h3>Layanan Kami</h3>
+      <ul>
+        <li><i class="fas fa-check"></i> Service PC & Laptop</li>
+        <li><i class="fas fa-check"></i> Perakitan PC Gaming</li>
+        <li><i class="fas fa-check"></i> Upgrade Komponen</li>
+        <li><i class="fas fa-check"></i> Konsultasi Build</li>
+      </ul>
+    </div>
+
+    <div class="footer-info">
+      <h3>Informasi</h3>
+      <ul>
+        <li><i class="fas fa-globe"></i> Website resmi NEXTGen Komputer</li>
+        <li><i class="fas fa-award"></i> Produk original & bergaransi</li>
+        <li><i class="fas fa-user-tie"></i> Teknisi berpengalaman</li>
+        <li><i class="fas fa-clock"></i> Pelayanan cepat & profesional</li>
+      </ul>
+    </div>
+
+    <div class="footer-kontak">
+      <h3>Hubungi Kami</h3>
+      <div class="kontak-item">
+        <a href="https://wa.me/6289537139166" target="_blank" class="wa-btn">
+          <i class="fab fa-whatsapp"></i>
+          <span>0895-3713-9166</span>
+        </a>
+      </div>
+      <div class="kontak-item">
+        <a href="https://instagram.com/USERNAME_ANDA" target="_blank" class="ig-btn">
+          <i class="fab fa-instagram"></i>
+          <span>@nextgen.komputer</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 NEXTGen Komputer. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/699da55e1398471c3a2c20c5/1ji7t422o';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
